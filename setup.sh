@@ -2,7 +2,7 @@
 # Always run out of home directory for account
 cd ~
 
-sudo apt-get install zsh vim python-pip
+sudo apt-get install zsh vim python-pip openssh-server openssh-client
 sudo pip install virtualenv
 
 virtualenv sys
@@ -19,3 +19,6 @@ cd Dotfiles
 pip install -r requirements.txt
 
 dotfiles -s -f
+
+#
+cd ~
