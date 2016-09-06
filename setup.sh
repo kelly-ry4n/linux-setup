@@ -18,4 +18,4 @@ cd Dotfiles
 
 pip install -r requirements.txt
 
-dotfiles -s
+dotfiles -s -f
