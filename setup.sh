@@ -6,7 +6,7 @@ sudo apt-get install zsh vim python-pip
 sudo pip install virtualenv
 
 virtualenv sys
-source sys/bin/activate
+. sys/bin/activate
 
 # use oh-my-zsh
 chsh -s /bin/zsh
