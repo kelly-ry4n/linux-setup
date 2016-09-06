@@ -2,7 +2,7 @@
 # Always run out of home directory for account
 cd ~
 
-sudo apt-get install zsh vim
+sudo apt-get install zsh vim python-pip
 
 # use oh-my-zsh
 chsh -s /bin/zsh
